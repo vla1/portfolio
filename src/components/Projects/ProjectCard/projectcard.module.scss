@@ -7,17 +7,29 @@
     max-width: 550px;
 
     .image-wrapper {
-        >img {
-            border-radius: $size-md $size-md 0 0;
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            object-position: top;
+        overflow: hidden;
+        border-radius: $size-md $size-md 0 0;
+
+        >a {
+
+            >img {
+                border-radius: $size-md $size-md 0 0;
+                width: 100%;
+                height: 300px;
+                object-fit: cover;
+                object-position: top;
+            }
+
+            &:hover {
+                >img {
+                    transform: scale(1.02);
+                }
+            }
         }
     }
 
     .info-wrapper {
-        padding: 0 16px;
+        padding: 0 $size-lg;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -30,7 +42,7 @@
         >a {
             text-decoration: none;
             color: $black;
-            background-color: $primary-lighter;
+            background-color: $primary-light;
             padding: $size-sm $size-md;
             border-radius: $size-md;
 

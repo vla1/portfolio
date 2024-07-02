@@ -6,8 +6,8 @@
     align-items: center;
     justify-content: center;
     gap: $size-xl;
-    border-radius: 16px;
-    padding: 0 16px;
+    border-radius: $size-lg;
+    padding: 0 $size-lg;
 
     >button {
         background-color: transparent;

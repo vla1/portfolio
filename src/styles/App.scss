@@ -7,4 +7,11 @@
   gap: $size-xl;
   text-align: center;
   padding: $size-lg;
+
+  .app-aboutMe-container {
+    width: 100%;
+    background-color: $background-gray2;
+    border-radius: $size-lg;
+    padding: $size-md;
+  }
 }
