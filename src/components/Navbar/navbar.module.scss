@@ -1,0 +1,17 @@
+@import "../../styles/constants.scss";
+
+.navbar-container {
+    background-color: $white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $size-xl;
+    border-radius: 16px;
+    padding: 0 16px;
+
+    >button {
+        background-color: transparent;
+        border: unset;
+        cursor: pointer;
+    }
+}

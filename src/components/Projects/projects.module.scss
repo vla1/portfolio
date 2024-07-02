@@ -1,0 +1,7 @@
+@import '../../styles/constants.scss';
+
+.projects-container {
+   display: flex;
+   flex-direction: column;
+   gap: 32px;
+}
