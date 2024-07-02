@@ -3,5 +3,5 @@
 .projects-container {
    display: flex;
    flex-direction: column;
-   gap: 32px;
+   gap: $size-xl;
 }
